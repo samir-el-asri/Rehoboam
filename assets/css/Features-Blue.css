@@ -83,7 +83,8 @@
   text-shadow: 2px 2px 30px rgb(184,184,184);
   font-family: 'Quicksand';
   font-weight: bold;
-  height: 100vh;
+  height: 100%;
+  z-index: 10;
 }
 
 .death-clock-form .intro {
@@ -94,7 +95,7 @@
 
 .death-clock-form h2 {
   font-family: 'PresicavW00';
-  padding-top: 85px;
+  padding-top: 45px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
