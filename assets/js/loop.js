@@ -1,4 +1,5 @@
 $(function(){
+    
     var i = 24;
     var wh = 20;
     var whI = 10;
@@ -23,4 +24,11 @@ $(function(){
         else
             color = "black";
     }
+    
+    var timeout = setTimeout(function()
+    {
+        $(".loading-screen-container:first").remove();
+        clearTimeout(timeout);
+    },2500);
+    
 });
