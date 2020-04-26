@@ -1,4 +1,5 @@
-# Death Clock - Death year calculator
-Make predictions for your death year with simple questions.
-## Live Demo
-https://demo.nicheoffice.web.tr/death-clock/
+# Rehoboam - Death Clock
+A static 1-page concept inspired and based on the quantum computer shown in HBO's Westworld season 3.
+Designed with Bootstrap Studio.
+# Hosted on GitHub Pages:
+https://sam-el.github.io/rehoboam

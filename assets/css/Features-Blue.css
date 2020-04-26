@@ -1,0 +1,127 @@
+.features-blue {
+  font-family: 'Quicksand';
+  color: #fff;
+  padding-bottom: 30px;
+  background: linear-gradient(to bottom right, #0c0c0d, #230705);
+}
+
+@media (max-width:767px) {
+  .features-blue {
+    padding-bottom: 10px;
+  }
+}
+
+.features-blue p {
+  color: rgba(255,255,255,0.72);
+}
+
+.features-blue h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: rgb(232,232,232);
+  text-transform: uppercase;
+  font-family: 'PresicavW00';
+  letter-spacing: 4px;
+  font-size: 28px;
+}
+
+@media (max-width:767px) {
+  .features-blue h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features-blue .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 60px;
+}
+
+@media (max-width:767px) {
+  .features-blue .intro {
+    margin-bottom: 40px;
+  }
+}
+
+.features-blue .item {
+  min-height: 100px;
+  padding-left: 80px;
+  margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+  .features-blue .item {
+    min-height: 0;
+  }
+}
+
+.features-blue .item .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+.features-blue .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.features-blue .item .icon {
+  font-size: 40px;
+  color: #8e1100;
+  float: left;
+  margin-left: -65px;
+}
+
+.death-clock-form {
+  color: black;
+  text-shadow: 2px 2px 30px rgb(184,184,184);
+  font-family: 'Quicksand';
+  font-weight: bold;
+  height: 100vh;
+}
+
+.death-clock-form .intro {
+  text-align: center;
+  font-family: quicksand;
+  margin-bottom: -30px;
+}
+
+.death-clock-form h2 {
+  font-family: 'PresicavW00';
+  padding-top: 85px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.death-clock-form p {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.death-clock-form .btn-primary {
+  border-radius: 50px;
+  background-color: transparent;
+  color: black;
+  border: 1.5px solid black;
+  text-align: center;
+  padding: 5px 20px;
+  margin: 15px auto 0 auto;
+}
+
+.death-clock-form form label {
+  font-size: 18px;
+}
+
+.death-clock-form h3 {
+  text-align: center;
+}
+

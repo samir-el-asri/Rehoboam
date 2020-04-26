@@ -1,0 +1,69 @@
+/*  Style the form  */
+
+#regForm {
+  background-color: #f8f8f8;
+  margin: 100px auto 25px auto;
+  padding: 40px 80px;
+  width: 60%;
+  min-width: 300px;
+  box-shadow: 2px 2px 30px 0px rgb(181,181,181), -2px -2px 30px 0px rgb(181,181,181);
+  border-radius: 6px;
+  border: 1px solid rgb(218,218,218);
+}
+
+/*  Style the input fields  */
+
+input {
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  text-align: center;
+}
+
+/*  Mark input boxes that gets an error on validation:  */
+
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/*  Hide all steps by default:  */
+
+.tab {
+  display: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*  Make circles that indicate the steps of the form:  */
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/*  Mark the active step:  */
+
+.step.active {
+  opacity: 1;
+}
+
+/*  Mark the steps that are finished and valid:  */
+
+.step.finish {
+  background-color: rgba(146,0,0,0.91);
+}
+
+@media (max-width: 768px) {
+  #regForm {
+    padding: 40px;
+  }
+}
+

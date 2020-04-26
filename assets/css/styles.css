@@ -1,0 +1,102 @@
+.loading-screen-container {
+  width: 100%;
+  height: 100vh;
+  /*background-color: whitesmoke;*/
+}
+
+.laoding-screen {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  /*border: 2px solid cyan;*/
+}
+
+.circle-red {
+  border: 2px solid rgb(255,77,0);
+}
+
+.circle-black {
+  border: 6px solid black;
+}
+
+.loading-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.74);
+  opacity: 0;
+  animation-name: showCircle;
+  animation-duration: 1000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showCircle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes loadingScreen {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.loading-screen-container {
+  background: linear-gradient(145deg, #ffffff, #d2d1d1);
+  background-size: 100%;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: loadingScreen 1s linear 2000ms 1 normal forwards;
+}
+
+body {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+iframe.incite-video {
+  display: block;
+  width: 100%;
+  height: 380px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 20px 0px rgba(54,54,54,0.3), -10px -10px 20px 0px rgba(54,54,54,0.3);
+}
+
+@media (max-width: 768px) {
+  iframe.incite-video {
+    height: 230px;
+  }
+}
+
+input[type=radio] {
+  margin-right: 10px;
+}
+
