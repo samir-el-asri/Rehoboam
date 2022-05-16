@@ -270,7 +270,7 @@ function nextPrev(n) {
         $("#regForm").html("");
 		if(timeRemaining > 0){
 			$("#regForm").append("<h3>You still have <b>" + timeRemaining + " years</b> to live!</h3>");
-			$("#regForm").append("<p>You will die in <b>" + deathYear + "</b> aged <b>" + ageOfDeath + "</b> years old.</p>");
+			$("#regForm").append("<p>Your estimated year of death is: <b>" + deathYear + "</b>, you will be <b>" + ageOfDeath + "</b> years old.</p>");
 		}
 		else{
 			$("#regForm").append("<h3>Congratulations, you outlived yourself!</h3>");
